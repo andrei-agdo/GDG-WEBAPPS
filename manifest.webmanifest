@@ -1,0 +1,22 @@
+{
+	"short_name": "App GDG",
+	"name": "App Google Developers Group",
+	"description": "Veja algumas informações sobre as apresentações de hoje",
+	"lang": "pt-BR",
+	"start_url": "./indexApp.html",
+	"display": "standalone",
+	"orientation": "portrait-primary",
+	"background_color": "#000",
+	"theme_color": "black",
+	"related_applications": [{
+		"platform": "web",
+		"url" : "./"
+	}],
+	"icons": [
+	{
+		"src": "logo_gdg.png",
+		"sizes": "72x72 96x96 128x128 192x192 256x256 512x512"
+	}
+  ]
+  
+}

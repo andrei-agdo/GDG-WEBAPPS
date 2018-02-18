@@ -1,0 +1,160 @@
+body
+{
+	text-align:center;
+	margin:0px;
+	font-family:Roboto, serif !important;
+}
+
+.tela
+{
+	min-height:100vh;
+}
+
+ul
+{
+	width: 210px;
+	margin: auto;
+	color:#fff
+}
+#campoBateria
+{
+    background:#fff;
+}
+
+#menu
+{
+	position: fixed;
+    width: 100%;
+    min-height: 30px;
+    background: #fff;
+    border-bottom: 1px solid #fff;
+	-webkit-user-select: none;	
+	-moz-user-select: none; 
+	 -ms-user-select: none; 
+	  user-select: none; 
+	cursor:pointer;
+}
+@media screen and (max-width:1000px)
+{
+	.meio
+	{
+		width:100% !important;
+		margin:auto;
+	}
+	#pt1
+	{
+		padding-top: 60px;
+	}
+	#pt1 h1, #pt2 h1, #pt3 h1, #pt4 h1, #pt5 h1
+	{
+		line-height: 70px !important;
+		padding-bottom: 30px !important;
+		padding-top: 10px !important;
+	}
+
+}
+.meio
+{
+	width:1000px;
+	margin:auto;
+}
+
+.cont_menu
+{
+	text-align:left;
+	line-height: 44px;
+	text-align:center;
+}
+.cont_menu a
+{
+	    padding: 12px;
+		border-bottom:2px #FFF solid;
+}
+.cont_menu a:hover
+{
+	border-bottom:2px #00F solid;
+}
+
+#pbateria
+{
+	text-shadow: #000 0px 0px 4px;
+}
+
+
+/* TELAS */
+
+#pt1
+{
+	background:#06F;
+	color:#000;
+}
+#pt1 h1
+{
+	background:#06F;
+	color:#fff;
+}
+
+#ptRec
+{
+	background:#00F;
+	color:#000;
+}
+
+
+#pt2,#pt6
+{
+	background:#F00;
+	color:#fff;
+}
+#pt1 h1,#pt2 h1,#pt3 h1,#pt4 h1,#pt5 h1,#pt6 h1,#ptRec h1
+{
+	color: #fff;
+    font-size: 45px;
+    font-family: 'Patua One';
+    padding: 0px;
+    margin: 0px;
+	    line-height: 110px;
+
+}
+#pt2 a,#pt3 a,#pt5 a,#pt6 a,#ptRec a
+{
+	color:#fff;
+	font-size:20px;
+}
+
+
+#pt3
+{
+	background:#00ff0a;
+	color:#fff;
+}
+
+
+#pt4
+{
+	color:#F00;
+	background:#09F;
+}
+
+#pt4 a
+{
+	color:#fff;
+}
+
+
+#pt5
+{
+	background:#FF0;
+}
+#pt5 *
+{
+	
+	color:#000 !important;
+}
+
+#momento,#final
+{
+	font-size:20px;
+	color:#fff;
+}
+
